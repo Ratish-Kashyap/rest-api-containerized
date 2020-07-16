@@ -99,7 +99,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>polygoncontainerregistry.azurecr.io/${project.artifactId}</repository>
+					<repository>test/${project.artifactId}</repository>
 					<tag>${project.version}</tag>
 					<skipDockerInfo>true</skipDockerInfo>
 				</configuration>
